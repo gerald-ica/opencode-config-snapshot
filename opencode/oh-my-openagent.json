@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "hephaestus": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "prometheus": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1",
+      "prompt_append": "Use a local-first flow: scope the task, split read-only work in parallel, implement in narrow verified steps, and end with an explicit verification pass."
+    },
+    "atlas": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "oracle": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "metis": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "momus": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "librarian": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "explore": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "multimodal-looker": {
+      "disable": true
+    }
+  },
+  "categories": {
+    "quick": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "unspecified-low": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "unspecified-high": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "writing": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    },
+    "visual-engineering": {
+      "model": "lmstudio/nvidia-nemotron-3-super-120b-a12b-heretic-i1"
+    }
+  },
+  "experimental": {
+    "aggressive_truncation": true,
+    "task_system": true
+  },
+  "tmux": {
+    "enabled": false
+  }
+}
